@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita&display=swap');
+
+
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+.play-the-game {
+    text-align: center;
+    background-color: #11141b;
+    font-family: 'Amita', cursive;
+    color: aliceblue;
+}
+
+button {
+    background-color: rgba(137, 43, 226, 0.555);
+    font-family: 'Amita', cursive;
+    color: rgb(245, 245, 245);
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: blueviolet;
+    color: white;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer p a:hover {
+    color: lightgreen;
+    transition: color 150ms 150ms linear;
+}
